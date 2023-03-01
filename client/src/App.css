@@ -2,6 +2,12 @@
   display: block;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -13,209 +19,13 @@
   color: white;
 }
 
-ul,
-li {
-  list-style-type: none;
+
+/* * {
+  box-sizing: border-box;
+} */
+
+/* body {
   margin: 0;
   padding: 0;
-}
+} */
 
-
-#Navbar label {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  height: 50px;
-  width: 50px;
-  z-index: 999;
-}
-
-#Navbar label:hover {
-  cursor: pointer;
-}
-
-#Navbar label span {
-  position: absolute;
-  top: 19px;
-  right: 4px;
-  width: 40px;
-  height: 5px;
-  border-radius: 4px;
-  display: block;
-  background-color: #fff;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-#Navbar label span:first-child {
-  top: 7px;
-}
-
-#Navbar label span:last-child {
-  top: 30px;
-}
-
-@media (min-width: 992px) {
-  #Navbar label {
-    display: none;
-  }
-}
-
-#Navbar input {
-  opacity: 0;
-}
-
-#Navbar input:checked + label span {
-  opacity: 0;
-  top: 50%;
-}
-
-#Navbar input:checked + label span:first-child {
-  opacity: 1;
-  -webkit-transform: rotate(405deg);
-          transform: rotate(405deg);
-}
-
-#Navbar input:checked + label span:last-child {
-  opacity: 1;
-  -webkit-transform: rotate(-405deg);
-          transform: rotate(-405deg);
-}
-
-@media (min-width: 992px) {
-  #Navbar input {
-    display: none;
-  }
-}
-
-#Navbar ul {
-  background-color: rgba(252, 131, 31, 0.9);
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 80px;
-  z-index: 10;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  padding-right: 5%;
-}
-
-@media (min-width: 992px) {
-  #Navbar ul {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-  }
-}
-
-#Navbar ul li {
-  position: relative;
-  -webkit-transform: translateY(-285px);
-          transform: translateY(-285px);
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
-  transition: -webkit-transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
-}
-
-#Navbar ul li:after {
-  content: '';
-  width: 72%;
-  height: 4px;
-  background-color: #f48480;
-  -webkit-transform-origin: center;
-          transform-origin: center;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  position: absolute;
-  bottom: 0;
-  left: 14%;
-  -webkit-transition: -webkit-transform 0.3s ease-in-out;
-  transition: -webkit-transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-}
-
-#Navbar ul li:hover:after {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
-}
-
-#Navbar ul li.current {
-  background-color: #f0535d;
-  pointer-events: none;
-}
-
-#Navbar ul li.current a {
-  color: #252525;
-}
-
-@media (min-width: 992px) {
-  #Navbar ul li {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-}
-
-#Navbar ul a {
-  color: #fff;
-  font-size: 1.4rem;
-  font-weight: 600;
-  letter-spacing: 0.02rem;
-  display: inline-block;
-  padding: 15px 26px 10px;
-}
-
-@media (min-width: 992px) {
-  #Navbar ul a {
-    font-size: 1.2rem;
-  }
-}
-
-#Navbar ul a:hover, #Navbar ul a:active, #Navbar ul a:focus {
-  background-color: transparent;
-}
-
-#Navbar input:checked ~ ul {
-  background-color: rgba(212, 77, 14, 0.98);
-  height: 100%;
-  padding: 80px 0 20px;
-}
-
-#Navbar input:checked ~ ul li {
-  opacity: 1;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
