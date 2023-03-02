@@ -1,23 +1,41 @@
-import React from "react";
+import React, { useRef } from "react";
+import {MdOutlineMailOutline} from "react-icons/md"
+import "./ContactStyles.css"
+import emailjs from 'emailjs-com'
+
 
 const Contact = () => {
-    return (
-        <section className="App-header" id= "contact">
-<h1><span>Hey, I'm Anthony!</span> I'm a <span className="title">Avionics tech turned Programmer</span> and
-        <span className="container-flip">
-          <span className="flip flip-chef"> home chef.</span>
-          <span className="flip flip-air"> air-soft lover.</span>
-          <span className="flip flip-optimist"> optimist.</span>
-          <span className="flip flip-tinkerer"> tinkerer.</span>
-          <span className="flip flip-dog"> dog lover.</span>
-          <span className="flip flip-traveller"> traveller.</span>
-          <span className="flip flip-hiker"> hiker.</span>
-          <span className="flip flip-gamer"> gamer.</span>
-        </span>
-      </h1>
+  const form = useRef();
 
-        </section>
-    )
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_vyulfl8', 'template_vlyz2rr', form.current, 'q-Yx4iRRqV950_k_j')
+
+    e.target.reset()
+  };
+
+  return (
+    <section id= "contact">
+
+
+      <div className="container contact_container">
+      <div className="container contact_options">
+        <article className="contact_option">
+          <h2>Let's talk</h2>
+          <h4>Reach me at</h4>
+          <MdOutlineMailOutline className="contact_option-icon"/><h3>tyharpo12@gmail.com</h3>
+        </article>
+      </div>
+        <form ref={form} onSubmit={sendEmail}>
+          <input type="text" name="name" placeholder="Your Full Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" rows="7" placeholder="Your message" required></textarea>
+          <button type="submit" className="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  )
 }
 
 export default Contact;
