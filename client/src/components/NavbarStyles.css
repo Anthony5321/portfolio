@@ -2,13 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(122, 122, 122);
+    background-color: rgb(164,12,12);
     padding: 20px, 80px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     position: sticky;
     top: 0;
     height: 80px;
-
+opacity: 97%;
 }
 
 #navbar {
@@ -35,7 +35,7 @@
 }
 
 #navbar li a:hover {
-color: black;
+color: rgba(223,37,37,255)
 }
 
 #navbar li a:hover::after {
@@ -69,7 +69,7 @@ color: black;
         right: -300px;
         width: 300px;
         height: 40vh;
-        background-color: rgb(26, 41, 173);
+        background-color: rgb(164,12,12);
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 40px 0 0 10px;
         transition: 0.3s ease-in-out;

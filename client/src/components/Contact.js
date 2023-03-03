@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import {MdOutlineMailOutline} from "react-icons/md"
 import "./ContactStyles.css"
 import emailjs from 'emailjs-com'
-
+import {HiOutlineChatBubbleOvalLeft} from "react-icons/hi2"
 
 const Contact = () => {
   const form = useRef();
@@ -22,9 +22,9 @@ const Contact = () => {
       <div className="container contact_container">
       <div className="container contact_options">
         <article className="contact_option">
-          <h2>Let's talk</h2>
-          <h4>Reach me at</h4>
-          <MdOutlineMailOutline className="contact_option-icon"/><h3>tyharpo12@gmail.com</h3>
+          <h2 className="contact_option-header">Let's talk<HiOutlineChatBubbleOvalLeft className="chat-icon"/></h2>
+          <h3 className="contact_option-text">Reach me at</h3>
+          <h3><MdOutlineMailOutline className="contact_option-icon"/> tyharpo12@gmail.com</h3>
         </article>
       </div>
         <form ref={form} onSubmit={sendEmail}>
