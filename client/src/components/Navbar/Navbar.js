@@ -22,7 +22,7 @@ render(){
             <BrowserRouter>
             <div className="navbar-links">
             <ul id="navbar" className={this.state.clicked ? "#navbar active": "#navbar"}>
-    <li><a className="active"><Link to='#home' smooth>Home</Link></a></li>
+    <li><a><Link to='#home' smooth>Home</Link></a></li>
     <li><a><Link to='#about' smooth>About</Link></a></li>
     <li><a><Link to='#skills' smooth>Skills</Link></a></li>
     <li><a><Link to='#work' smooth>Work</Link></a></li>

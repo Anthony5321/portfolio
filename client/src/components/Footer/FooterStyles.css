@@ -15,7 +15,6 @@ footer a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    list-style-type: none
 }
 
 .footer_socials {
@@ -43,7 +42,6 @@ footer a {
 }
 
 .footer_copyright {
-    margin-bottom: 2rem;
     color: var(--color-bg);
 }
 

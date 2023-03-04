@@ -1,13 +1,11 @@
 import "./App.css";
-import { BrowserRouter } from "react-router-dom";
-import { HashLink as Link } from "react-router-hash-link";
-import Home from "./components/Home";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Skills from "./components/Skills";
-import Work from "./components/Work";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Home from "./components/Home/Home.js";
+import About from "./components/About/About.js";
+import Contact from "./components/Contact/Contact.js";
+import Skills from "./components/Skills/Skills.js";
+import Work from "./components/Work/Work.js";
+import Navbar from "./components/Navbar/Navbar.js";
+import Footer from "./components/Footer/Footer.js";
 
 function App() {
   return (
