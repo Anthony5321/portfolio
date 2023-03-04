@@ -1,3 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
 body {
   background-color: black;
+  font-family: 'Gloock', serif;
+  line-height: 1.7;
+}
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 8rem;
+}
+
+section > h2, section > h5 {
+  text-align: center;
+}
+
+section > h2 {
+  margin-bottom: 3rem;
+}
+
+a {
+  transition: var(--transition)
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid white;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  border-color: transparent;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section > h2{
+    margin-bottom: 2rem;
+  }
 }
