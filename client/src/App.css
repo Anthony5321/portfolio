@@ -15,7 +15,20 @@
   outline: 0;
   box-sizing: border-box;
   list-style: none;
+  text-decoration: none;
 }
+
+:root {
+--container-width-lg: 75%;
+--container-width-md:86%;
+--container-width-sm: 90%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 
 .App-header {
   min-height: 100vh;
@@ -26,10 +39,3 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-
-/* body {
-  margin: 0;
-  padding: 0;
-} */
-
