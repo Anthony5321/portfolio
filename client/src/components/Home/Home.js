@@ -1,21 +1,24 @@
 import React from "react";
+import './HomeStyles.css';
+import CTA from "./CTA";
+import us from "../../assets/us.jpg";
+import HeaderSocials from "./HeaderSocials";
 
 const Home = () => {
     return (
         <section className="App-header" id= "home">
-<h1><span>Hey, I'm Anthony!</span> I'm a <span className="title">Avionics tech turned Programmer</span> and
-        <span className="container-flip">
-          <span className="flip flip-chef"> home chef.</span>
-          <span className="flip flip-air"> air-soft lover.</span>
-          <span className="flip flip-optimist"> optimist.</span>
-          <span className="flip flip-tinkerer"> tinkerer.</span>
-          <span className="flip flip-dog"> dog lover.</span>
-          <span className="flip flip-traveller"> traveller.</span>
-          <span className="flip flip-hiker"> hiker.</span>
-          <span className="flip flip-gamer"> gamer.</span>
-        </span>
-      </h1>
-
+          <header>
+            <div>
+              <h5>Hello I'm</h5>
+              <h1>Anthony Harpestad</h1>
+              <h5>Fullstack Developer</h5>
+              <CTA />
+              <HeaderSocials />
+              <div className="me">
+                <img src={us} alt="us" />
+              </div>
+            </div>
+          </header>
         </section>
     )
 }

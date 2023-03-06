@@ -1,0 +1,71 @@
+.btn {
+    color: white;
+    background-color: rgb(164,12,12);
+}
+
+.btn-primary:hover {
+    background-color: rgb(130, 11, 11);
+}
+
+.header_socials {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    left: 2%;
+    top: 41%;
+    border: none;
+
+}
+
+.gif-git {
+    width: 40px;
+    height: auto;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+
+.gif-linkedIn {
+    width: 40px;
+    height: auto;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+    .gif-git {
+        width: 40px;
+        height: auto;
+        margin: 10px;
+    }
+    
+    .gif-linkedIn {
+        width: 40px;
+        height: auto;
+        margin: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header_socials {
+        flex-direction: row;
+        left: 2%;
+        top: 0px;
+    
+    }
+    .gif-git {
+        width: 20px;
+        height: auto;
+        margin: 10px;
+    }
+    
+    .gif-linkedIn {
+        width: 20px;
+        height: auto;
+        margin: 10px;
+    }
+  }
