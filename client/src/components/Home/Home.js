@@ -1,7 +1,7 @@
 import React from "react";
 import './HomeStyles.css';
 import CTA from "./CTA";
-import us from "../../assets/us.jpg";
+import profile from "../../assets/profile.png";
 import HeaderSocials from "./HeaderSocials";
 
 const Home = () => {
@@ -9,13 +9,13 @@ const Home = () => {
         <section className="App-header" id= "home">
           <header>
             <div>
-              <h5>Hello I'm</h5>
+              <h1>Hey, nice to meet you! I'm</h1>
               <h1>Anthony Harpestad</h1>
               <h5>Fullstack Developer</h5>
               <CTA />
               <HeaderSocials />
               <div className="me">
-                <img src={us} alt="us" />
+                <img src={profile} alt="profile-pic" />
               </div>
             </div>
           </header>
