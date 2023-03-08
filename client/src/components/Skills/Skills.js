@@ -12,58 +12,58 @@ import {SiSequelize} from "react-icons/si";
 const Skills = () => {
     return (
 <section id="languages">
-    <div class="container">
-        <h1 class="text-center">Languages &amp; Frameworks</h1>
-        <div class="row">
-            <div class="col-lg-3 col-md-6 mt-4">
-                    <div class="card-body">
+    <div className="container">
+        <h1 className="text-center">Languages &amp; Frameworks</h1>
+        <div className="row">
+            <div className="col-lg-3 col-md-6 mt-4">
+                    <div className="card-body">
                     <FaHtml5 className="skill-icon"/>
-                        <h4 class="card-title mt-3">HTML</h4>
+                        <h4 className="card-title mt-3">HTML</h4>
                     </div>
             </div>
-            <div class="col-lg-3 col-md-6 mt-4">
-                <div class="card-body">
+            <div className="col-lg-3 col-md-6 mt-4">
+                <div className="card-body">
                 <DiCss3 className="skill-icon"/>
-                    <h4 class="card-title mt-3">CSS</h4>
+                    <h4 className="card-title mt-3">CSS</h4>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mt-4">
-                <div class="card-body">
+            <div className="col-lg-3 col-md-6 mt-4">
+                <div className="card-body">
                    <IoLogoJavascript className="skill-icon"/>
-                    <h4 class="card-title mt-3">Javascript</h4>
+                    <h4 className="card-title mt-3">Javascript</h4>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mt-4">
-                <div class="card-body">
+            <div className="col-lg-3 col-md-6 mt-4">
+                <div className="card-body">
                 <FaReact className="skill-icon"/>
-                    <h4 class="card-title mt-3">React</h4>
+                    <h4 className="card-title mt-3">React</h4>
                 </div>
             </div>        
         </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-6 mt-4">
-                <div class="card-body">
+        <div className="row">
+            <div className="col-lg-3 col-md-6 mt-4">
+                <div className="card-body">
                 <DiMongodb className="skill-icon"/>
-                    <h4 class="card-title mt-3">MongoDB</h4>
+                    <h4 className="card-title mt-3">MongoDB</h4>
                 </div>
             </div>
             
-            <div class="col-lg-3 col-md-6 mt-4">
-                <div class="card-body">
+            <div className="col-lg-3 col-md-6 mt-4">
+                <div className="card-body">
                 <SiExpress className="skill-icon"/>
-                    <h4 class="card-title mt-3">Express</h4>
+                    <h4 className="card-title mt-3">Express</h4>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mt-4">
-                <div class="card-body">
+            <div className="col-lg-3 col-md-6 mt-4">
+                <div className="card-body">
                 <SiPostgresql className="skill-icon"/>
-                    <h4 class="card-title mt-3">SQL</h4>
+                    <h4 className="card-title mt-3">SQL</h4>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mt-4">
-                <div class="card-body">
+            <div className="col-lg-3 col-md-6 mt-4">
+                <div className="card-body">
                 <SiSequelize className="skill-icon"/>
-                    <h4 class="card-title mt-3">Sequelize</h4>
+                    <h4 className="card-title mt-3">Sequelize</h4>
                 </div>
             </div>
         </div>

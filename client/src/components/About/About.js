@@ -13,10 +13,9 @@ const About = () => {
               </div>
                 <div className="about-container">
                   <div className="left-about">
-                    <h3 className="about-text"><h2>Information About me</h2> <br/>After moving to Massachusetts to study to become an airline mechanic, I got a job at Nexair, a small avionics company, where I excelled and learned a lot. I then moved on to Bombardier, a larger private jet service center, to work as an avionics technician and became fascinated by the technology. I took online courses to learn to program and eventually became a student at General Assembly, starting a new chapter in my career.</h3>
+                    <h3 className="about-text">Information About me <br/>After moving to Massachusetts to study to become an airline mechanic, I got a job at Nexair, a small avionics company, where I excelled and learned a lot. I then moved on to Bombardier, a larger private jet service center, to work as an avionics technician and became fascinated by the technology. I took online courses to learn to program and eventually became a student at General Assembly, starting a new chapter in my career.</h3>
                   </div>
                   <div className="right-about">
-                    <div className="row-1">
                     <div className="about-item">
                       <div className="abt-text">
                         <p className="large-text">90+</p>
@@ -29,8 +28,6 @@ const About = () => {
                         <p className="small-text">programs <br /> Learned</p>
                     </div>
                   </div>
-                  </div>
-                  <div className="row-2">
                   <div className="about-item">
                       <div className="abt-text">
                         <p className="large-text">70+</p>
@@ -44,7 +41,6 @@ const About = () => {
                     </div>
                   </div>
                   </div>
-                  </div>
                 </div>
                 <div className="container">
                 <h2 className="timeline-title">My timeline</h2>
@@ -54,9 +50,9 @@ const About = () => {
                     <div className="tl-icon">
                       <i className=""><RiComputerLine /></i>
                     </div>
-                    <p className="tl-duration">01/23 - present</p>
-                    <h5>Fullstack Developer - <span> - General Assembly</span></h5>
-                    <h5>I learned practical skills in coding, design, and data through hands-on projects and collaboration with peers.</h5>
+                    <h3 className="tl-duration">01/23 - present</h3>
+                    <h3>Fullstack Developer - <span> - General Assembly</span></h3>
+                    <h4>I learned practical skills in coding, design, and data through hands-on projects and collaboration with peers.</h4>
                   </div>
                 </div>
                 <div className="timeline">
@@ -64,9 +60,9 @@ const About = () => {
                     <div className="tl-icon">
                       <i className=""><IoAirplaneOutline /></i>
                     </div>
-                    <p className="tl-duration">04/22 - 01/23</p>
-                    <h5>Avionics Technician - <span> - Bombardier</span></h5>
-                    <p>installation of new modules in preexisting aircraft using several schematics</p>
+                    <h3 className="tl-duration">04/22 - 01/23</h3>
+                    <h3>Avionics Technician - <span> - Bombardier</span></h3>
+                    <h4>installation of new modules in preexisting aircraft using several schematics</h4>
                   </div>
                 </div>
                 <div className="timeline">
@@ -74,14 +70,13 @@ const About = () => {
                     <div className="tl-icon">
                       <i className=""><GiAirplane /></i>
                     </div>
-                    <p className="tl-duration">02/21 — 04/22</p>
-                    <h5>Avionics Technician - <span> - NexAir Avionics</span></h5>
-                    <p>Installation of new instruments using schematics and harness fabrication</p>
+                    <h3 className="tl-duration">02/21 — 04/22</h3>
+                    <h3>Avionics Technician - <span> - NexAir Avionics</span></h3>
+                    <h4>Installation of new instruments using schematics and harness fabrication</h4>
                   </div>
                 </div>
                 </div>
                 </div>
-                
         </section>
     )
 }

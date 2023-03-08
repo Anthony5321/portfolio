@@ -11,6 +11,7 @@ handleClick = () => {
 render(){
 
 return (
+    <div className="sticky-nav">
     <section className="navbar">
     <div className="navbar-links">
         <ul id="navbar" className={this.state.clicked ? "#navbar active": "#navbar"}>
@@ -26,6 +27,7 @@ return (
         className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
     </div>
     </section>
+    </div>
     )
 }
 }

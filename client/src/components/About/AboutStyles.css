@@ -90,9 +90,7 @@
 
 }
 
-.container-timeline {
 
-}
 
 .timeline-item {
     padding-left: 3rem;
@@ -112,11 +110,6 @@
     .about-container {
         display: flex;
         flex-direction: column;
-    }
-    .row-1 {
-    }
-    .row-2 {
-
     }
 }
 
