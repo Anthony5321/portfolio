@@ -1,5 +1,8 @@
 import { useState } from "react";
 import cn from "classnames";
+import { Link } from 'react-router-dom';
+import {BsArrowCounterclockwise} from "react-icons/bs";
+import {BsArrowClockwise} from "react-icons/bs";
 
 function FlipCard({ card: { id, variant, front, back } }) {
     const [showBack, setShowBack] = useState(false); 
@@ -9,19 +12,7 @@ function FlipCard({ card: { id, variant, front, back } }) {
           setShowBack(!showBack);
         }
       }
-    
-      function handleFocus() {
-        if (variant === "focus") {
-          setShowBack(true);
-        }
-      }
-    
-      function handleBlur() {
-        if (variant === "focus") {
-          setShowBack(false);
-        }
-      }
-    
+      
     return (
 <div
       tabIndex={id}
@@ -37,6 +28,7 @@ function FlipCard({ card: { id, variant, front, back } }) {
         >
           <div className="card-body position-relative d-flex justify-content-center align-items-center">
             <div className="icon">
+            <BsArrowClockwise />
             </div>
           </div>
         </div>
@@ -45,11 +37,12 @@ function FlipCard({ card: { id, variant, front, back } }) {
           <p className="name">{back.name}</p>
           <p className="description">{back.description}</p>
             <div className="d-flex flex-column justify-content-center align-items-center">
-              <p className="deployed">{back.deployed}</p>
-              <p className="GitHub">{back.GitHub}</p>
+            <a className="deployed" href={back.deployed} target='_blank' >Deployed</a>
+            <a className="GitHub" href={back.GitHub} target='_blank' >GitHub</a>
               <p className="programs">{back.programs}</p>
             </div>
             <div className="icon">
+            <BsArrowCounterclockwise />
             </div>
           </div>
         </div>

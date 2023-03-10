@@ -1,11 +1,29 @@
+#home {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.header-info {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    padding-right: 4rem;
+    text-align: left;
+}
+
 .btn {
     color: white;
     background-color: rgb(164,12,12);
-
+    margin: 10px;
 }
 
 .btn-primary:hover {
     background-color: rgb(130, 11, 11);
+}
+
+.cta {
+    align-content: center;
 }
 
 .header_socials {
@@ -21,8 +39,9 @@
 }
 
 .me {
-    display: flex;
-    margin-top: 40px;
+    display: inline-block;
+
+    vertical-align: middle;
     max-width: 400px;
     max-height: fit-content;
     border-radius: 20px;
@@ -35,7 +54,6 @@
     margin: 10px;
     border: 1px solid white;
     border-radius: 50%;
-
 }
 
 .gif-linkedIn {
@@ -45,6 +63,34 @@
     border: 1px solid white;
     border-radius: 50%;
 }
+
+@media screen and (max-width: 1097px) {
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-intro {
+    display: flex;
+    margin-left: 8rem;
+    justify-content: left;
+}
+}
+
+@media screen and (max-width: 826px) {
+    .header-intro {
+        font-size: xx-large;
+        margin-left: 2rem;
+    }
+    }
+
+    @media screen and (max-width: 626px) {
+        .header-intro {
+            font-size: x-large;
+            margin-left: 0;
+        }
+        }
 
 @media screen and (max-width: 1024px) {
     .gif-git {
@@ -59,13 +105,21 @@
         margin: 10px;
     }
   }
+
+  @media screen and (max-width: 550px) {
+    #home {
+        margin: 0;
+        padding: 0;
+    }
+  }
   
-  @media screen and (max-width: 500px) {
+  
+  @media screen and (max-width: 520px) {
     .header_socials {
         flex-direction: row;
         left: 2%;
         top: 0px;
-    
+        z-index: 2;
     }
     .gif-git {
         width: 20px;
@@ -77,5 +131,9 @@
         width: 20px;
         height: auto;
         margin: 10px;
+    }
+    #home {
+        margin: 0;
+        padding: 0;
     }
   }

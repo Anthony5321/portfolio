@@ -8,16 +8,17 @@ const Home = () => {
     return (
         <section className="App-header" id= "home">
           <header>
-            <div>
-              <h1>Hey, nice to meet you! I'm</h1>
-              <h1>Anthony Harpestad</h1>
-              <h5>Fullstack Developer</h5>
+            <div className="header-info">
+            <h1 className="header-intro">Hey, nice to meet you!</h1>
+              <h1 className="header-intro">I'm Anthony Harpestad</h1>
+              <h1 className="header-intro">and I'm a fullstack developer</h1>
+              <h2></h2>
               <CTA />
+              </div>
               <HeaderSocials />
               <div className="me">
                 <img src={profile} alt="profile-pic" />
               </div>
-            </div>
           </header>
         </section>
     )

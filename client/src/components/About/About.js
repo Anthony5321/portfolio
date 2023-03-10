@@ -8,6 +8,7 @@ import {RiComputerLine} from "react-icons/ri";
 const About = () => {
     return (
           <section id="about">
+            <div className="container">
               <div className="main-title">
                 <h1 className="about-me">About Me</h1>
               </div>
@@ -50,9 +51,9 @@ const About = () => {
                     <div className="tl-icon">
                       <i className=""><RiComputerLine /></i>
                     </div>
-                    <h3 className="tl-duration">01/23 - present</h3>
-                    <h3>Fullstack Developer - <span> - General Assembly</span></h3>
-                    <h4>I learned practical skills in coding, design, and data through hands-on projects and collaboration with peers.</h4>
+                    <h2 className="tl-duration">01/23 - present</h2>
+                    <h2>Fullstack Developer - <span> - General Assembly</span></h2>
+                    <h3>I learned practical skills in coding, design, and data through hands-on projects and collaboration with peers.</h3>
                   </div>
                 </div>
                 <div className="timeline">
@@ -60,9 +61,9 @@ const About = () => {
                     <div className="tl-icon">
                       <i className=""><IoAirplaneOutline /></i>
                     </div>
-                    <h3 className="tl-duration">04/22 - 01/23</h3>
-                    <h3>Avionics Technician - <span> - Bombardier</span></h3>
-                    <h4>installation of new modules in preexisting aircraft using several schematics</h4>
+                    <h2 className="tl-duration">04/22 - 01/23</h2>
+                    <h2>Avionics Technician - <span> - Bombardier</span></h2>
+                    <h3>installation of new modules in preexisting aircraft using several schematics.</h3>
                   </div>
                 </div>
                 <div className="timeline">
@@ -70,10 +71,11 @@ const About = () => {
                     <div className="tl-icon">
                       <i className=""><GiAirplane /></i>
                     </div>
-                    <h3 className="tl-duration">02/21 — 04/22</h3>
-                    <h3>Avionics Technician - <span> - NexAir Avionics</span></h3>
-                    <h4>Installation of new instruments using schematics and harness fabrication</h4>
+                    <h2 className="tl-duration">02/21 — 04/22</h2>
+                    <h2>Avionics Technician - <span> - NexAir Avionics</span></h2>
+                    <h3>Installation of new instruments using schematics and harness fabrication.</h3>
                   </div>
+                </div>
                 </div>
                 </div>
                 </div>

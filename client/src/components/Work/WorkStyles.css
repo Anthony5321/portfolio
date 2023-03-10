@@ -1,4 +1,9 @@
-
+.projects {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 1.5rem;
+}
 
 .card-container {
   height: 100vh;
@@ -9,23 +14,28 @@
   justify-content: center;
 }
 
-.row {
-    justify-content: center;
+.icon {
+  transition: transform 1s;
+  transform: rotateX(-180deg)
 }
 
-.focus-trigger:focus {
-   outline: 5px solid greenyellow;
-   outline-offset: 5px;
-  }
+.flip-card-inner:hover .icon {
+  transition: transform 1s;
+  transform: rotateX(180deg)  
+}
+
+.row {
+    justify-content: center;
+    z-index: 1;
+}
+
 
 .flip-card-inner {
   transform-style: preserve-3d;
   transition: .5s linear .1s;
   width: inherit;
   height: inherit;
-}
-.hover-trigger:hover {
-  transform: rotateY(180deg);
+  cursor: pointer;
 }
 
 .showBack {
@@ -66,8 +76,7 @@ p {
     font-size: 1rem;
   }
 .deployed{ 
-    padding-left: 3rem;
-    float: left;
+  margin-right: 1rem ;
     font-size: 1.2rem;
 }
 .GitHub {
@@ -94,8 +103,12 @@ p {
     margin: 25px;
   }
 
-  @media screen and (max-width:852px) {
+  @media screen and (max-width:851px) {
+    .projects {
+      margin-top: 0;
+      margin-bottom: 500px;
+    }
     #work {
-        height: 1850px;
+        height: 1450px;
     }
 }

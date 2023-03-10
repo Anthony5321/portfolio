@@ -85,11 +85,15 @@ input::placeholder, textarea::placeholder{
 }
 
 @media screen and (max-width: 600px) {
-    .container.contact_container {
-        width: var(--container-width-sm);
-    }
     .contact_option {
         margin: auto;
         position: relative;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .container.contact_container {
+        width: var(--container-width-sm);
+    }
+}
+

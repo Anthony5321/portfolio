@@ -14,6 +14,7 @@
 .sticky-nav {
     position: sticky;
     top: 0px;
+    z-index: 2;
 }
 
 #navbar {
@@ -63,7 +64,7 @@ color: rgba(223,37,37,255)
     color:white ;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:520px) {
     #navbar {
         display: flex;
         flex-direction: column;
