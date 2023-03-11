@@ -1,9 +1,5 @@
 import React from "react";
 import './FooterStyles.css'
-import {FaGithub} from 'react-icons/fa'
-import {FaLinkedin} from 'react-icons/fa'
-import { HashLink as Link } from "react-router-hash-link";
-import { BrowserRouter } from "react-router-dom";
 
 const Footer = () => {
   return (

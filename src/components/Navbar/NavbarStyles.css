@@ -37,11 +37,9 @@
     transition: 0.3s ease-in-out;
 }
 
-
 #navbar li a:hover {
 color: rgba(223,37,37,255)
 }
-
 
 #navbar li a:hover::after {
     content: "";

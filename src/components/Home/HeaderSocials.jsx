@@ -1,7 +1,5 @@
-import {SlSocialGithub} from "react-icons/sl";
 import github from "../../assets/github.gif";
 import linkedIn from "../../assets/linkedIn.gif";
-
 
 const HeaderSocials = () => {
   return (

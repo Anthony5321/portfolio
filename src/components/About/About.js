@@ -4,7 +4,6 @@ import {GiAirplane} from "react-icons/gi";
 import {IoAirplaneOutline} from "react-icons/io5";
 import {RiComputerLine} from "react-icons/ri";
 
-
 const About = () => {
     return (
           <section id="about">

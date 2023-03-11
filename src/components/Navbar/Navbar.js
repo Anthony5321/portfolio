@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./NavbarStyles.css"
 
-
 class Navbar extends Component {
 state={clicked: false}
 handleClick = () => {

@@ -1,6 +1,5 @@
 import { useState } from "react";
 import cn from "classnames";
-import { Link } from 'react-router-dom';
 import {BsArrowCounterclockwise} from "react-icons/bs";
 import {BsArrowClockwise} from "react-icons/bs";
 

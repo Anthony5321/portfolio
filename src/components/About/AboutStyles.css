@@ -10,7 +10,6 @@
     margin-top: 1.5rem;
 }
 
-
 .about-me {
     display: flex;
     justify-content: center;
@@ -87,10 +86,7 @@
     max-width: 500px;
     margin-bottom: 2rem;
     float: left;
-
 }
-
-
 
 .timeline-item {
     padding-left: 3rem;
@@ -157,8 +153,7 @@
         width: 300px;
         margin-left: 3rem;
     }
-    }
-
+}
 
 @media screen and (max-width:520px) {
     .right-about {
