@@ -7,6 +7,7 @@ import HeaderSocials from "./HeaderSocials";
 const Home = () => {
     return (
         <section className="App-header" id= "home">
+          <div className="container">
           <header>
             <div className="header-info">
             <h1 className="header-intro">Hey, nice to meet you!</h1>
@@ -19,6 +20,7 @@ const Home = () => {
                 <img src={profile} alt="profile-pic" />
               </div>
           </header>
+          </div>
         </section>
     )
 }

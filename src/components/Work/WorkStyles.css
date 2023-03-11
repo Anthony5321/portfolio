@@ -1,3 +1,8 @@
+#word {
+  overflow: auto;
+}
+
+
 .projects {
   display: flex;
   justify-content: center;
@@ -102,7 +107,7 @@ p {
     margin: 25px;
   }
 
-  @media screen and (max-width:851px) {
+  @media screen and (max-width:731px) {
     .projects {
       margin-top: 2rem;
       margin-bottom: 20rem;
@@ -110,4 +115,120 @@ p {
     #work {
         margin-bottom: 20rem;
     }
+}
+@media screen and (max-width:851px) {
+  .projects {
+    margin-top: 2rem;
+    margin-bottom: 20rem;
+  }
+  #work {
+      margin-bottom: 20rem;
+  }
+}
+
+@media screen and (max-height: 850px) {
+  .h-100 {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (max-height: 880px) {
+  .h-100 {
+    margin-top: 8rem;
+  }
+}
+
+@media screen and (max-height: 750px) {
+  .h-100 {
+    margin-top: 15rem;
+  }
+}
+
+@media screen and (max-height: 650px) {
+  .h-100 {
+    margin-top: 22rem;
+  }
+}
+
+@media screen and (max-height: 550px) {
+  .h-100 {
+    margin-top: 22rem;
+  }
+}
+
+@media screen and (max-height: 480px) {
+  .h-100 {
+    margin-top: 25rem;
+  }
+}
+
+
+
+@media screen and (max-height: 800px) {
+  #work {
+    margin-bottom: 8rem;
+  }
+}
+
+@media screen and (max-height: 780px) {
+  #work {
+    margin-bottom: 10rem;
+  }
+}
+
+@media screen and (max-height: 760px) {
+  #work {
+    margin-bottom: 12rem;
+  }
+}
+
+@media screen and (max-height: 740px) {
+  #work {
+    margin-bottom: 14rem;
+  }
+}
+
+@media screen and (max-height: 710px) {
+  #work {
+    margin-bottom: 16rem;
+  }
+}
+
+@media screen and (max-height: 690px) {
+  #work {
+    margin-bottom: 18rem;
+  }
+}
+
+@media screen and (max-height: 670px) {
+  #work {
+    margin-bottom: 20rem;
+  }
+}
+
+@media screen and (max-height: 640px) {
+  #work {
+    margin-bottom: 22rem;
+  }
+}
+
+@media screen and (max-height: 620px) {
+  #work {
+    margin-bottom: 24rem;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  #work {
+    margin-bottom: 26rem;
+  }
+}
+
+@media screen and (max-height: 420px) {
+  #work {
+    margin-bottom: 29rem;
+  }
+  .h-100 {
+    margin-top: 28rem;
+  }
 }

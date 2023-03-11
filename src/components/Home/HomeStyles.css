@@ -142,4 +142,7 @@
     .me {
         width: 325px;
     }
+    .header-info {
+        padding: 0;
+    }
   }
