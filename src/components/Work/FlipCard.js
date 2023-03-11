@@ -36,8 +36,8 @@ function FlipCard({ card: { id, variant, front, back } }) {
           <p className="name">{back.name}</p>
           <p className="description">{back.description}</p>
             <div className="d-flex flex-column justify-content-center align-items-center">
-            <a className="deployed" href={back.deployed} target='_blank' >Deployed</a>
-            <a className="GitHub" href={back.GitHub} target='_blank' >GitHub</a>
+            <a className="deployed" href={back.deployed} target='_blank' rel="noreferrer" >Deployed</a>
+            <a className="GitHub" href={back.GitHub} target='_blank' rel="noreferrer" >GitHub</a>
               <p className="programs">{back.programs}</p>
             </div>
             <div className="icon">

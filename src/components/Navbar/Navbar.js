@@ -14,7 +14,7 @@ return (
     <section className="navbar">
     <div className="navbar-links">
         <ul id="navbar" className={this.state.clicked ? "#navbar active": "#navbar"}>
-            <li><a href="#">Home</a></li>
+            <li><a href="/#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#languages">Skills</a></li>
             <li><a href="#work">Work</a></li>
