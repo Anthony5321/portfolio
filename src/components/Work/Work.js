@@ -67,7 +67,7 @@ const Work = () => {
   return (
     <section className="App-header" id= "work">
       <div className="container">
-		<h1 className="projects">Projects I've worked on</h1>
+		<h1 className="projects">Projects Completed</h1>
 	  <div className="card-container">
 		<div className="overlay-background" />
 		<div className="overlay-border" />
