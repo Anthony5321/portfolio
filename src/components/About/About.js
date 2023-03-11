@@ -13,7 +13,9 @@ const About = () => {
               </div>
                 <div className="about-container">
                   <div className="left-about">
-                    <h3 className="about-text">Information About me <br/>After moving to Massachusetts to study to become an airline mechanic, I got a job at Nexair, a small avionics company, where I excelled and learned a lot. I then moved on to Bombardier, a larger private jet service center, to work as an avionics technician and became fascinated by the technology. I took online courses to learn to program and eventually became a student at General Assembly, starting a new chapter in my career.</h3>
+                    <div className="about-text">
+                    <h2>Information About me</h2><br/><h3>After moving to Massachusetts to study to become an airline mechanic, I got a job at Nexair, a small avionics company, where I excelled and learned a lot. I then moved on to Bombardier, a larger private jet service center, to work as an avionics technician and became fascinated by the technology. I took online courses to learn to program and eventually became a student at General Assembly, starting a new chapter in my career.</h3>
+                    </div>
                   </div>
                   <div className="right-about">
                     <div className="about-item">
