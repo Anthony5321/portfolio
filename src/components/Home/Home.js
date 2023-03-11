@@ -11,7 +11,6 @@ const Home = () => {
             <h1 className="header-intro">Hey, nice to meet you!</h1>
               <h1 className="header-intro">I'm Anthony Harpestad</h1>
               <h1 className="header-intro">and I'm a fullstack developer</h1>
-              <h2></h2>
               <CTA />
               </div>
               <HeaderSocials />
