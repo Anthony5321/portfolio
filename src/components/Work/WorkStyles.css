@@ -126,6 +126,13 @@ p {
   }
 }
 
+
+@media screen and (max-width:401px) {
+  .projects {
+    text-align: center;
+  }
+}
+
 @media screen and (max-height: 850px) {
   .h-100 {
     margin-top: 10rem;
@@ -161,7 +168,6 @@ p {
     margin-top: 25rem;
   }
 }
-
 
 
 @media screen and (max-height: 800px) {
@@ -230,5 +236,78 @@ p {
   }
   .h-100 {
     margin-top: 28rem;
+  }
+}
+
+@media screen and (max-width: 851px) and (max-height: 1121px) {
+  #work {
+    margin-bottom: 26rem;
+  }
+  .h-100 {
+    margin-top: 5rem;
+  }
+}
+
+
+@media screen and (max-width: 851px) and (max-height: 1021px) {
+  #work {
+    margin-bottom: 31rem;
+  }
+  .h-100 {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 851px) and (max-height: 921px) {
+  #work {
+    margin-bottom: 36rem;
+  }
+  .h-100 {
+    margin-top: 15rem;
+  }
+}
+
+@media screen and (max-width: 851px) and (max-height: 821px) {
+  #work {
+    margin-bottom: 43rem;
+  }
+  .h-100 {
+    margin-top: 22rem;
+  }
+}
+
+@media screen and (max-width: 851px) and (max-height: 721px) {
+  #work {
+    margin-bottom: 49rem;
+  }
+  .h-100 {
+    margin-top: 28rem;
+  }
+}
+
+@media screen and (max-width: 851px) and (max-height: 621px) {
+  #work {
+    margin-bottom: 55rem;
+  }
+  .h-100 {
+    margin-top: 34rem;
+  }
+}
+
+@media screen and (max-width: 851px) and (max-height: 521px) {
+  #work {
+    margin-bottom: 61rem;
+  }
+  .h-100 {
+    margin-top: 40rem;
+  }
+}
+
+@media screen and (max-width: 851px) and (max-height: 421px) {
+  #work {
+    margin-bottom: 68rem;
+  }
+  .h-100 {
+    margin-top: 47rem;
   }
 }
