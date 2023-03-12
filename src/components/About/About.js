@@ -14,7 +14,7 @@ const About = () => {
                 <div className="about-container">
                   <div className="left-about">
                     <div className="about-text">
-                    <h2>Information About me</h2><br/><h3>After moving to Massachusetts to study to become an airline mechanic, I got a job at Nexair, a small avionics company, where I excelled and learned a lot. I then moved on to Bombardier, a larger private jet service center, to work as an avionics technician and became fascinated by the technology. I took online courses to learn to program and eventually became a student at General Assembly, starting a new chapter in my career.</h3>
+                    <h3>Moved to Massachusetts to attain certification to become an airline mechanic. Started position at Nexair, a small avionics company, where I excelled and learned to troubleshoot avionics hardware and software components. Moved on to Bombardier, a larger private jet service center, to work as an avionics technician and became fascinated by the technology. I took online courses to learn more about programming and eventually enrolled as a student at General Assembly. Thrilled to start a new chapter in my life and career as a software engineer.</h3>
                     </div>
                   </div>
                   <div className="right-about">
@@ -52,9 +52,9 @@ const About = () => {
                     <div className="tl-icon">
                       <i className=""><RiComputerLine /></i>
                     </div>
-                    <h2 className="tl-duration">01/23 - present</h2>
+                    <h2 className="tl-duration">Jan '23 - present</h2>
                     <h2>Fullstack Developer - <span> - General Assembly</span></h2>
-                    <h3>I learned practical skills in coding, design, and data through hands-on projects and collaboration with peers.</h3>
+                    <h3>Learned practical skills in coding, design, and data through hands-on projects and collaboration with peers.</h3>
                   </div>
                 </div>
                 <div className="timeline">
@@ -62,9 +62,9 @@ const About = () => {
                     <div className="tl-icon">
                       <i className=""><IoAirplaneOutline /></i>
                     </div>
-                    <h2 className="tl-duration">04/22 - 01/23</h2>
+                    <h2 className="tl-duration">Apr '22 - Jan '23</h2>
                     <h2>Avionics Technician - <span> - Bombardier</span></h2>
-                    <h3>installation of new modules in preexisting aircraft using several schematics.</h3>
+                    <h3>Installation of new modules in preexisting aircraft using several schematics.</h3>
                   </div>
                 </div>
                 <div className="timeline">
@@ -72,7 +72,7 @@ const About = () => {
                     <div className="tl-icon">
                       <i className=""><GiAirplane /></i>
                     </div>
-                    <h2 className="tl-duration">02/21 — 04/22</h2>
+                    <h2 className="tl-duration">Feb '21 — Apr '22</h2>
                     <h2>Avionics Technician - <span> - NexAir Avionics</span></h2>
                     <h3>Installation of new instruments using schematics and harness fabrication.</h3>
                   </div>

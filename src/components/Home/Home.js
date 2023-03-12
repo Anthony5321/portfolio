@@ -16,9 +16,7 @@ const Home = () => {
               <CTA />
               </div>
               <HeaderSocials />
-              <div className="me">
-                <img src={profile} alt="profile-pic" />
-              </div>
+                <img className="me" src={profile} alt="profile-pic" />
           </header>
           </div>
         </section>
