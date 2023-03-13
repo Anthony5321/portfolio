@@ -20,7 +20,7 @@ const About = () => {
                   <div className="right-about">
                     <div className="about-item">
                       <div className="abt-text">
-                        <p className="large-text">90+</p>
+                        <p className="large-text">10+</p>
                         <p className="small-text">projects <br /> Completed</p>
                     </div>
                   </div>
