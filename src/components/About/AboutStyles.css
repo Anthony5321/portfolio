@@ -17,7 +17,7 @@
 
 .about-text {
     padding-left: 50px;
-  width: 400px;
+    width: 400px;
 }
 
 .about-container {
@@ -107,6 +107,7 @@
         display: flex;
         flex-direction: column;
     }
+
     .right-about {
         margin-top: 2rem;
         margin-left: 12rem;
@@ -162,6 +163,7 @@
         width: 300px;
 
     }
+
     .left-about {
         width: 100%;
         justify-content: center;
@@ -176,6 +178,7 @@
         width: 250px;
 
     }
+
     .about-text {
         font-size: small;
         width: 100%;

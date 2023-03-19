@@ -1,6 +1,5 @@
-
 #contact {
-    background-color: rgb(164,12,12);
+    background-color: rgb(164, 12, 12);
 }
 
 .container.contact_container {
@@ -26,6 +25,7 @@
     background: transparent;
     border-color: white;
 }
+
 .contact_option-text {
     margin-top: 2rem;
 }
@@ -45,7 +45,7 @@
 }
 
 .contact_option-header {
-font-size: 40px;
+    font-size: 40px;
 }
 
 form {
@@ -55,7 +55,8 @@ form {
     color: white;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
@@ -65,19 +66,21 @@ input, textarea {
     color: white;
 }
 
-input::placeholder, textarea::placeholder{
+input::placeholder,
+textarea::placeholder {
     color: white;
-  }
+}
 
-  .submit {
+.submit {
     margin-bottom: 1.2rem;
-  }
+}
 
 @media screen and (max-width: 1185px) {
     .container.contact_container {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+
     .contact_option {
         margin-top: 1.2rem;
     }
@@ -95,4 +98,3 @@ input::placeholder, textarea::placeholder{
         width: var(--container-width-sm);
     }
 }
-

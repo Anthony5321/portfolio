@@ -1,19 +1,19 @@
 import { useState } from "react";
 import cn from "classnames";
-import {BsArrowCounterclockwise} from "react-icons/bs";
-import {BsArrowClockwise} from "react-icons/bs";
+import { BsArrowCounterclockwise } from "react-icons/bs";
+import { BsArrowClockwise } from "react-icons/bs";
 
 function FlipCard({ card: { id, variant, front, back } }) {
-    const [showBack, setShowBack] = useState(false); 
-    
-    function handleClick() {
-        if (variant === "click") {
-          setShowBack(!showBack);
-        }
-      }
-      
-    return (
-<div
+  const [showBack, setShowBack] = useState(false);
+
+  function handleClick() {
+    if (variant === "click") {
+      setShowBack(!showBack);
+    }
+  }
+
+  return (
+    <div
       tabIndex={id}
       className={cn("flip-card-outer", { hover: variant === "hover" })}
       onClick={handleClick}
@@ -27,21 +27,21 @@ function FlipCard({ card: { id, variant, front, back } }) {
         >
           <div className="card-body position-relative d-flex justify-content-center align-items-center">
             <div className="icon">
-            <BsArrowClockwise />
+              <BsArrowClockwise />
             </div>
           </div>
         </div>
         <div className="card back">
           <div className="card-body d-flex flex-column justify-content-around align-items-center">
-          <p className="name">{back.name}</p>
-          <p className="description">{back.description}</p>
+            <p className="name">{back.name}</p>
+            <p className="description">{back.description}</p>
             <div className="d-flex flex-column justify-content-center align-items-center">
-            <a className="deployed" href={back.deployed} target='_blank' rel="noreferrer" >Deployed</a>
-            <a className="GitHub" href={back.GitHub} target='_blank' rel="noreferrer" >GitHub</a>
+              <a className="deployed" href={back.deployed} target='_blank' rel="noreferrer" >Deployed</a>
+              <a className="GitHub" href={back.GitHub} target='_blank' rel="noreferrer" >GitHub</a>
               <p className="programs">{back.programs}</p>
             </div>
             <div className="icon">
-            <BsArrowCounterclockwise />
+              <BsArrowCounterclockwise />
             </div>
           </div>
         </div>

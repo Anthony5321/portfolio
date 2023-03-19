@@ -10,13 +10,13 @@ import Footer from "./components/Footer/Footer.js";
 function App() {
   return (
     <div className="App">
-    <Navbar />
-    <Home />
-    <About />
-    <Skills />
-    <Work />
-    <Contact />
-    <Footer />
+      <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Work />
+      <Contact />
+      <Footer />
     </div>
   );
 }

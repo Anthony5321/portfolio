@@ -1,6 +1,6 @@
 #languages {
     color: white;
-    display:block;
+    display: block;
 }
 
 .text-center {
@@ -16,6 +16,7 @@
     text-align: center;
     margin: 10px;
 }
+
 .col-lg-3 {
     height: auto;
     margin: 0 auto;
@@ -34,7 +35,7 @@
 }
 
 .skill-icon:hover {
-    color: rgb(164,12,12);
+    color: rgb(164, 12, 12);
 }
 
 .row {

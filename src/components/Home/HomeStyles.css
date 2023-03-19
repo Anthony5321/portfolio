@@ -14,7 +14,7 @@
 
 .btn {
     color: white;
-    background-color: rgb(164,12,12);
+    background-color: rgb(164, 12, 12);
     margin: 10px;
 }
 
@@ -45,7 +45,7 @@
     border-radius: 20px;
     height: 430px;
     object-position: 0px 100%;
-    background: radial-gradient(#d9070b , #3b0404);
+    background: radial-gradient(#d9070b, #3b0404);
 }
 
 .gif-git {
@@ -65,17 +65,17 @@
 }
 
 @media screen and (max-width: 1097px) {
-.cta {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .cta {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-.header-intro {
-    display: flex;
-    margin-left: 8rem;
-    justify-content: left;
-}
+    .header-intro {
+        display: flex;
+        margin-left: 8rem;
+        justify-content: left;
+    }
 }
 
 @media screen and (max-width: 826px) {
@@ -83,14 +83,14 @@
         font-size: xx-large;
         margin-left: 2rem;
     }
-    }
+}
 
-    @media screen and (max-width: 626px) {
-        .header-intro {
-            font-size: x-large;
-            margin-left: 0;
-        }
-        }
+@media screen and (max-width: 626px) {
+    .header-intro {
+        font-size: x-large;
+        margin-left: 0;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .gif-git {
@@ -98,51 +98,54 @@
         height: auto;
         margin: 10px;
     }
-    
+
     .gif-linkedIn {
         width: 40px;
         height: auto;
         margin: 10px;
     }
-  }
+}
 
-  @media screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
     #home {
         margin: 0;
         padding: 0;
     }
-  }
-  
-  
-  @media screen and (max-width: 520px) {
+}
+
+
+@media screen and (max-width: 520px) {
     .header_socials {
         flex-direction: row;
         left: 2%;
         top: 0px;
         z-index: 2;
     }
+
     .gif-git {
         width: 20px;
         height: auto;
         margin: 10px;
     }
-    
+
     .gif-linkedIn {
         width: 20px;
         height: auto;
         margin: 10px;
     }
+
     #home {
         margin: 0;
         padding: 0;
     }
-  }
+}
 
-  @media screen and (max-width: 410px) {
+@media screen and (max-width: 410px) {
     .me {
         width: 325px;
     }
+
     .header-info {
         padding: 0;
     }
-  }
+}
