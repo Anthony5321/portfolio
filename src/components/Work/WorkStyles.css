@@ -2,6 +2,9 @@
   overflow: auto;
 }
 
+.App-header {
+  margin-top: 0px;
+}
 
 .projects {
   display: flex;
@@ -11,11 +14,11 @@
 }
 
 .card-container {
-  height: 100vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-self: center;
-  margin: 1rem;
+
   justify-content: center;
 }
 
@@ -32,6 +35,7 @@
 .row {
   justify-content: center;
   z-index: 1;
+
 }
 
 
@@ -60,6 +64,8 @@
   transform: rotateY(0);
   background-color: #2d2d2d;
   color: #fff;
+  background-size: cover;
+  background-position: center;
 }
 
 .back {
@@ -110,219 +116,156 @@ p {
   margin: 25px;
 }
 
-@media screen and (max-width:731px) {
-  .projects {
-    margin-top: 2rem;
-    margin-bottom: 20rem;
+@media screen and (max-width: 520px) {
+  .flip-card-outer {
+    width: 300px;
+    height: 400px;
   }
+}
 
+@media screen and (min-width: 521px) {
+  .flip-card-outer {
+    width: 400px;
+    height: 500px;
+  }
+  .name {
+    font-size: 2.5rem;
+  }
+  .description {
+    font-size: 1.5rem;
+  }
+  .deployed {
+    font-size: 1.8rem;
+  }
+  .GitHub {
+    font-size: 1.8rem;
+  }
+  .programs {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 2399px) {
   #work {
-    margin-bottom: 20rem;
-  }
-}
-
-@media screen and (max-width:851px) {
-  .projects {
-    margin-top: 2rem;
-    margin-bottom: 20rem;
-  }
-
-  #work {
-    margin-bottom: 20rem;
-  }
-}
-
-
-@media screen and (max-width:401px) {
-  .projects {
-    text-align: center;
-  }
-}
-
-@media screen and (max-height: 850px) {
-  .h-100 {
-    margin-top: 10rem;
-  }
-}
-
-@media screen and (max-height: 880px) {
-  .h-100 {
-    margin-top: 8rem;
-  }
-}
-
-@media screen and (max-height: 750px) {
-  .h-100 {
-    margin-top: 15rem;
-  }
-}
-
-@media screen and (max-height: 650px) {
-  .h-100 {
-    margin-top: 22rem;
-  }
-}
-
-@media screen and (max-height: 550px) {
-  .h-100 {
-    margin-top: 22rem;
-  }
-}
-
-@media screen and (max-height: 480px) {
-  .h-100 {
-    margin-top: 25rem;
-  }
-}
-
-
-@media screen and (max-height: 800px) {
-  #work {
-    margin-bottom: 8rem;
-  }
-}
-
-@media screen and (max-height: 780px) {
-  #work {
-    margin-bottom: 10rem;
-  }
-}
-
-@media screen and (max-height: 760px) {
-  #work {
-    margin-bottom: 12rem;
-  }
-}
-
-@media screen and (max-height: 740px) {
-  #work {
-    margin-bottom: 14rem;
-  }
-}
-
-@media screen and (max-height: 710px) {
-  #work {
-    margin-bottom: 16rem;
-  }
-}
-
-@media screen and (max-height: 690px) {
-  #work {
-    margin-bottom: 18rem;
-  }
-}
-
-@media screen and (max-height: 670px) {
-  #work {
-    margin-bottom: 20rem;
-  }
-}
-
-@media screen and (max-height: 640px) {
-  #work {
-    margin-bottom: 22rem;
-  }
-}
-
-@media screen and (max-height: 620px) {
-  #work {
-    margin-bottom: 24rem;
-  }
-}
-
-@media screen and (max-height: 600px) {
-  #work {
-    margin-bottom: 26rem;
-  }
-}
-
-@media screen and (max-height: 420px) {
-  #work {
-    margin-bottom: 29rem;
+    margin-bottom: 23rem;
   }
 
   .h-100 {
-    margin-top: 28rem;
+    margin-top: 35rem;
   }
 }
 
-@media screen and (max-width: 851px) and (max-height: 1121px) {
+@media screen and (max-width: 1199px) {
   #work {
-    margin-bottom: 26rem;
+    margin-bottom: 90rem;
   }
 
   .h-100 {
-    margin-top: 5rem;
+    margin-top: 100rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  #work {
+    margin-bottom: 65rem;
+  }
+
+  .h-100 {
+    margin-top: 75rem;
+  }
+}
+
+@media screen and (max-width: 768px) and (max-height: 820px) {
+  #work {
+    margin-bottom: 105rem;
+  }
+
+  .h-100 {
+    margin-top: 110rem;
   }
 }
 
 
-@media screen and (max-width: 851px) and (max-height: 1021px) {
+@media screen and (max-width: 520px) and (max-height: 1121px) {
   #work {
-    margin-bottom: 31rem;
+    margin-top: 0;
+    margin-bottom: 65rem;
   }
 
   .h-100 {
-    margin-top: 10rem;
+    margin-top: 75rem;
   }
 }
 
-@media screen and (max-width: 851px) and (max-height: 921px) {
+@media screen and (max-width: 520px) and (max-height: 1021px) {
   #work {
-    margin-bottom: 36rem;
+    margin-bottom: 70rem;
   }
 
   .h-100 {
-    margin-top: 15rem;
+    margin-top: 80rem;
   }
 }
 
-@media screen and (max-width: 851px) and (max-height: 821px) {
+@media screen and (max-width: 520px) and (max-height: 921px) {
   #work {
-    margin-bottom: 43rem;
+    margin-bottom: 75rem;
   }
 
   .h-100 {
-    margin-top: 22rem;
+    margin-top: 85rem;
   }
 }
 
-@media screen and (max-width: 851px) and (max-height: 721px) {
+
+
+
+@media screen and (max-width: 520px) and (max-height: 821px) {
   #work {
-    margin-bottom: 49rem;
+    margin-bottom: 80rem;
   }
 
   .h-100 {
-    margin-top: 28rem;
+    margin-top: 90rem;
   }
 }
 
-@media screen and (max-width: 851px) and (max-height: 621px) {
+@media screen and (max-width: 520px) and (max-height: 721px) {
   #work {
-    margin-bottom: 55rem;
+    margin-bottom: 85rem;
   }
 
   .h-100 {
-    margin-top: 34rem;
+    margin-top: 95rem;
   }
 }
 
-@media screen and (max-width: 851px) and (max-height: 521px) {
+@media screen and (max-width: 520px) and (max-height: 621px) {
   #work {
-    margin-bottom: 61rem;
+    margin-bottom: 90rem;
   }
 
   .h-100 {
-    margin-top: 40rem;
+    margin-top: 95rem;
   }
 }
 
-@media screen and (max-width: 851px) and (max-height: 421px) {
+@media screen and (max-width: 520px) and (max-height: 521px) {
   #work {
-    margin-bottom: 68rem;
+    margin-bottom: 95rem;
   }
 
   .h-100 {
-    margin-top: 47rem;
+    margin-top: 100rem;
+  }
+}
+
+@media screen and (max-width: 520px) and (max-height: 421px) {
+  #work {
+    margin-bottom: 100rem;
+  }
+
+  .h-100 {
+    margin-top: 105rem;
   }
 }

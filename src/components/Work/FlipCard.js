@@ -22,7 +22,8 @@ function FlipCard({ card: { id, variant, front, back } }) {
         <div
           className="card front"
           style={{
-            backgroundImage: `linear-gradient(#00000000, #00000050), url(${front.background})`
+            backgroundImage: `url(${front.background})`,
+            backgroundSize: "cover",
           }}
         >
           <div className="card-body position-relative d-flex justify-content-center align-items-center">

@@ -7,7 +7,7 @@ const cards = [
 		id: "1",
 		variant: "click",
 		front: {
-			background: "ChefSmall.png"
+			background: "ChefBig.png"
 		},
 		back: {
 			name: "Sous Chef",
@@ -21,7 +21,7 @@ const cards = [
 		id: "2",
 		variant: "click",
 		front: {
-			background: "RideSmall.png"
+			background: "RideBig.png"
 		},
 		back: {
 			name: "Thrill Ride Share",
@@ -35,7 +35,7 @@ const cards = [
 		id: "3",
 		variant: "click",
 		front: {
-			background: "pcSmall.png"
+			background: "PCbuildsBig.png"
 		},
 		back: {
 			name: "Rate-My-PC-Setup",
@@ -49,7 +49,7 @@ const cards = [
 		id: "4",
 		variant: "click",
 		front: {
-			background: "breakoutSmall.png"
+			background: "breakoutBig.png"
 		},
 		back: {
 			name: "Breakout",

@@ -72,7 +72,7 @@ const About = () => {
                 <div className="tl-icon">
                   <i className=""><GiAirplane /></i>
                 </div>
-                <h2 className="tl-duration">Feb '21 — Apr '22</h2>
+                <h2 className="tl-duration">Feb '21 - Apr '22</h2>
                 <h2>Avionics Technician - <span> - NexAir Avionics</span></h2>
                 <h3>Installation of new instruments using schematics and harness fabrication.</h3>
               </div>
