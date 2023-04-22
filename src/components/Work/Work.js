@@ -7,7 +7,7 @@ const cards = [
 		id: "1",
 		variant: "click",
 		front: {
-			background: "ChefBig.png"
+			background: "ChefBig2.png"
 		},
 		back: {
 			name: "Sous Chef",
@@ -35,7 +35,7 @@ const cards = [
 		id: "3",
 		variant: "click",
 		front: {
-			background: "PCbuildsBig.png"
+			background: "PCbuildsBig2.png"
 		},
 		back: {
 			name: "Rate-My-PC-Setup",
